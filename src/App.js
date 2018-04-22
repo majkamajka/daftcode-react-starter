@@ -1,15 +1,13 @@
 import { hot } from 'react-hot-loader';
 import * as React from 'react';
-import Home from './view/Home';
+import Counter from './view/Counter';
 
 import './styles/theme.sass';
 
 class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <main>
-        <Home username="DaftCoder" />
-      </main>
+      <Counter from={ 68 } to={ 0 } />
     );
   }
 }
