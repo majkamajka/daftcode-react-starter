@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+body {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; }
+
+html {
+  font-size: 10px; }
+
+body {
+  margin: 0; }
+
+main {
+  width: 80%;
+  margin: 4rem auto 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #d7d7d7; }
+
+
+/*# sourceMappingURL=main.css.map*/
