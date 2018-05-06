@@ -15,7 +15,7 @@ module.exports = {
       path.resolve('src'),
       path.resolve('node_modules'),
     ],
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', 'png', 'svg'],
   },
 
   output: {
@@ -85,7 +85,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpe?g|png|gif|ico)$/i,
+        test: /\.(jpe?g|png|gif|ico|svg)$/i,
         use: [
           {
             loader: 'file-loader',

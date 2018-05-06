@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: $darkGrey;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+body {
+  background: $white;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.heading-small {
+  font-size: 24px;
+  // center - ?
+
+  &--semibold {
+    font-weight: 600;
+    letter-spacing: 18px;
+  }
+}
+
+.basic {
+  font-size: 14px;
+  letter-spacing: 1px;
+
+  &--semibold {
+    //font-weight: 600;
+    letter-spacing: 9px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 100%;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 9px;
+  color: $accent;
+}
