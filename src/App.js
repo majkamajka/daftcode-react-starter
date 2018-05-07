@@ -1,13 +1,21 @@
 import { hot } from 'react-hot-loader';
 import * as React from 'react';
-import Counter from './view/Counter';
+import launch from './assets/launch.json';
+import launchSite from './assets/launch_site.json';
+import rocket from './assets/rocket.json';
 
-import './styles/theme.sass';
+import LaunchDetails from './view/LaunchDetails';
+
+import './styles/main.scss';
 
 class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <Counter from={ 68 } to={ 0 } />
+      <LaunchDetails
+        launch={launch}
+        launchSite={launchSite}
+        rocket={rocket}
+      />
     );
   }
 }

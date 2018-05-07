@@ -1,0 +1,20 @@
+.next-launch {
+  width: 50%;
+
+  &__date {
+    color: $coolGrey;
+  }
+
+  &__heading {
+    margin-top: 20px;
+  }
+
+  &__counter {
+    margin-top: 10px;
+  }
+
+  &__logo {
+    margin-top: 40px;
+    width: 200px;
+  }
+}

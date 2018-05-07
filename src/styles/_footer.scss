@@ -1,0 +1,31 @@
+.footer {
+  background-color: $darkGrey;
+  color: $brownGrey;
+  font-weight: 300;
+  height: 80px;
+
+  &__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      margin: 0 15px 0 20px;
+    }
+  }
+
+  &__social-list {
+    display: flex;
+  }
+
+  &__social-list-item {
+    color: $white;
+    opacity: .7;
+    padding: 0 10px;
+  }
+}

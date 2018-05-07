@@ -1,0 +1,31 @@
+.header {
+  background: $almostBlack;
+  height: 70px;
+
+  &__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__go-back-wrapper {
+    align-items: center;
+    display: flex;
+  }
+
+  &__arrow-line {
+    border: 1px solid $accent;
+    display: inline-block;
+    height: 2px;
+    margin: 0 20px 0 -1px;
+    width: 30px;
+  }
+
+  &__logo {
+    width: 300px;
+  }
+
+  &__placeholder {
+    width: 160px;
+  }
+}

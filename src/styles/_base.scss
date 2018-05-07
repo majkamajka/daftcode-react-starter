@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $darkGrey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+body {
+  background: $white;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.heading-small {
+  font-size: 24px;
+  // center - ?
+
+  &--semibold {
+    font-weight: 600;
+    letter-spacing: 18px;
+  }
+}
+
+.basic {
+  font-size: 14px;
+  letter-spacing: 1px;
+
+  &--semibold {
+    //font-weight: 600;
+    letter-spacing: 9px;
+  }
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 40px;
+}
+
+.title {
+  color: $accent;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 9px;
+}

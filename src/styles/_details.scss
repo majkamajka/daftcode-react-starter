@@ -1,0 +1,41 @@
+.details {
+  $module: &;
+
+  width: 50%;
+
+  @extend .basic;
+
+  &__box {
+    padding: 0 0 40px;
+  }
+
+  &__heading {
+    border-bottom: 2px solid $accent;
+    color: $accent;
+    padding-bottom: 20px;
+  }
+
+  &__spec {
+    display: flex;
+    margin-top: 20px;
+
+    #{$module}-spec__column {
+      border-left: 1px dashed $coolGrey;
+      padding-left: 20px;
+      width: 50%;
+    }
+
+    #{$module}-spec__item {
+      padding: 10px 0;
+
+      &--lighter {
+        color: $coolGrey;
+      }
+    }
+  }
+
+  &__text {
+    line-height: 20px;
+    margin-top: 20px;
+  }
+}
